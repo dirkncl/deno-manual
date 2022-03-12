@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charSet="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <style id="__FRSH_STYLE">
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit
+    }
+
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline
+    }
+
+    html {
+      line-height: 1.5;
+      -webkit-text-size-adjust: 100%;
+      font-family: ui-sans-serif, system-ui, sans-serif
+    }
+
+    table {
+      text-indent: 0;
+      border-color: inherit;
+      border-collapse: collapse
+    }
+
+    hr {
+      height: 0;
+      color: inherit;
+      border-top-width: 1px
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      opacity: 1;
+      color: #9ca3af
+    }
+
+    ::-webkit-file-upload-button {
+      -webkit-appearance: button;
+      font: inherit
+    }
+
+    button {
+      background-color: transparent;
+      background-image: none
+    }
+
+    body {
+      font-family: inherit;
+      line-height: inherit
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      border: 0 solid #e5e7eb
+    }
+    [type="search"] {
+      -webkit-appearance: textfield;
+      outline-offset: -2px
+    }
+    * {
+      --tw-shadow: 0 0 transparent
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      white-space: nowrap;
+      clip: rect(0, 0, 0, 0);
+      border-width: 0
+    }
+
+    .inset-0 {
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px
+    }
+
+    .transition {
+      transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms
+    }
+
+    .text-green-500 {
+      --tw-text-opacity: 1;
+      color: #10b981;
+      color: rgba(16, 185, 129, var(--tw-text-opacity))
+    }
+
+    .text-red-400 {
+      --tw-text-opacity: 1;
+      color: #f87171;
+      color: rgba(248, 113, 113, var(--tw-text-opacity))
+    }
+
+    .text-white {
+      --tw-text-opacity: 1;
+      color: #fff;
+      color: rgba(255, 255, 255, var(--tw-text-opacity))
+    }
+
+    .text-gray-900 {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity))
+    }
+
+    .text-blue-600 {
+      --tw-text-opacity: 1;
+      color: #2563eb;
+      color: rgba(37, 99, 235, var(--tw-text-opacity))
+    }
+
+    .text-gray-400 {
+      --tw-text-opacity: 1;
+      color: #9ca3af;
+      color: rgba(156, 163, 175, var(--tw-text-opacity))
+    }
+
+    .text-gray-500 {
+      --tw-text-opacity: 1;
+      color: #6b7280;
+      color: rgba(107, 114, 128, var(--tw-text-opacity))
+    }
+
+    .border-green-300 {
+      --tw-border-opacity: 1;
+      border-color: #6ee7b7;
+      border-color: rgba(110, 231, 183, var(--tw-border-opacity))
+    }
+
+    .border-red-300 {
+      --tw-border-opacity: 1;
+      border-color: #fca5a5;
+      border-color: rgba(252, 165, 165, var(--tw-border-opacity))
+    }
+
+    .bg-gray-600 {
+      --tw-bg-opacity: 1;
+      background-color: #4b5563;
+      background-color: rgba(75, 85, 99, var(--tw-bg-opacity))
+    }
+
+    .bg-white {
+      --tw-bg-opacity: 1;
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+    }
+
+    .bg-gray-100 {
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    }
+
+    .border-gray-200 {
+      --tw-border-opacity: 1;
+      border-color: #e5e7eb;
+      border-color: rgba(229, 231, 235, var(--tw-border-opacity))
+    }
+
+    .px-4 {
+      padding-left: 1rem;
+      padding-right: 1rem
+    }
+
+    .mx-4 {
+      margin-left: 1rem;
+      margin-right: 1rem
+    }
+
+    .text-2xl {
+      font-size: 1.5rem;
+      line-height: 2rem
+    }
+
+    .shadow-sm {
+      --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)
+    }
+
+    .my-2 {
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem
+    }
+
+    .my-0\.5 {
+      margin-bottom: 0.125rem;
+      margin-top: 0.125rem
+    }
+
+    .bg-gray-50 {
+      --tw-bg-opacity: 1;
+      background-color: #f9fafb;
+      background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
+    }
+
+    .shadow {
+      --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)
+    }
+
+    .py-1 {
+      padding-bottom: 0.25rem;
+      padding-top: 0.25rem
+    }
+
+    .px-2 {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem
+    }
+
+    .text-sm {
+      font-size: 0.875rem;
+      line-height: 1.25rem
+    }
+
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .px-12 {
+      padding-left: 3rem;
+      padding-right: 3rem
+    }
+
+    .py-8 {
+      padding-bottom: 2rem;
+      padding-top: 2rem
+    }
+
+    .h-screen {
+      height: 100vh
+    }
+
+    .hidden {
+      display: none
+    }
+
+    .flex {
+      display: flex
+    }
+
+    .overflow-hidden {
+      overflow: hidden
+    }
+
+    .fixed {
+      position: fixed
+    }
+
+    .absolute {
+      position: absolute
+    }
+
+    .opacity-75 {
+      opacity: 0.75
+    }
+
+    .relative {
+      position: relative
+    }
+
+    .flex-1 {
+      flex: 1 1 0%
+    }
+
+    .w-full {
+      width: 100%
+    }
+
+    .p-1 {
+      padding: 0.25rem
+    }
+
+    .h-12 {
+      height: 3rem
+    }
+
+    .w-12 {
+      width: 3rem
+    }
+
+    .h-6 {
+      height: 1.5rem
+    }
+
+    .w-6 {
+      width: 1.5rem
+    }
+
+    .w-auto {
+      width: auto
+    }
+
+    .block {
+      display: block
+    }
+
+    .h-0 {
+      height: 0px
+    }
+
+    .w-14 {
+      width: 3.5rem
+    }
+
+    .w-72 {
+      width: 18rem
+    }
+
+    .w-0 {
+      width: 0px
+    }
+
+    .h-16 {
+      height: 4rem
+    }
+
+    .h-10 {
+      height: 2.5rem
+    }
+
+    .h-full {
+      height: 100%
+    }
+
+    .h-5 {
+      height: 1.25rem
+    }
+
+    .w-5 {
+      width: 1.25rem
+    }
+
+    .inline {
+      display: inline
+    }
+    .flex-col {
+      flex-direction: column
+    }
+
+    .items-center {
+      align-items: center
+    }
+
+    .justify-center {
+      justify-content: center
+    }
+
+    .pb-4 {
+      padding-bottom: 1rem
+    }
+
+    .pt-4 {
+      padding-top: 1rem
+    }
+
+    .flex-shrink-0 {
+      flex-shrink: 0
+    }
+
+    .font-bold {
+      font-weight: 700
+    }
+
+    .leading-6 {
+      line-height: 1.5rem
+    }
+
+    .tracking-tight {
+      letter-spacing: -0.025em
+    }
+    .pt-2 {
+      padding-top: 0.5rem
+    }
+
+    .pb-8 {
+      padding-bottom: 2rem
+    }
+
+    .overflow-y-auto {
+      overflow-y: auto
+    }
+
+    .z-10 {
+      z-index: 10
+    }
+
+    .justify-between {
+      justify-content: space-between
+    }
+
+    .pointer-events-none {
+      pointer-events: none
+    }
+
+    .pl-6 {
+      padding-left: 1.5rem
+    }
+
+    .font-mono {
+      font-family: Menlo, Monaco, "Lucida Console", Consolas, "Liberation Mono", "Courier New", monospace
+    }
+
+    .break-all {
+      word-break: break-all
+    }
+
+    .z-0 {
+      z-index: 0
+    }
+
+    .max-w-screen-md {
+      max-width: 768px
+    }
+
+    .rounded-md {
+      border-radius: 0.375rem
+    }
+
+    .ease-in-out {
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+
+    .rounded-\[6px\] {
+      border-radius: 6px
+    }
+
+    .border-b {
+      border-bottom-width: 1px
+    }
+
+    .border-r {
+      border-right-width: 1px
+    }
+
+    .border-l {
+      border-left-width: 1px
+    }
+
+    .border-t {
+      border-top-width: 1px
+    }
+
+    .focus-within\:text-gray-600:focus-within {
+      --tw-text-opacity: 1;
+      color: #4b5563;
+      color: rgba(75, 85, 99, var(--tw-text-opacity))
+    }
+
+    .hover\:text-blue-500:hover {
+      --tw-text-opacity: 1;
+      color: #3b82f6;
+      color: rgba(59, 130, 246, var(--tw-text-opacity))
+    }
+
+    .hover\:text-gray-600:hover {
+      --tw-text-opacity: 1;
+      color: #4b5563;
+      color: rgba(75, 85, 99, var(--tw-text-opacity))
+    }
+
+    .hover\:text-gray-900:hover {
+      --tw-text-opacity: 1;
+      color: #111827;
+      color: rgba(17, 24, 39, var(--tw-text-opacity))
+    }
+
+    .hover\:border-green-300:hover {
+      --tw-border-opacity: 1;
+      border-color: #6ee7b7;
+      border-color: rgba(110, 231, 183, var(--tw-border-opacity))
+    }
+
+    .hover\:border-red-300:hover {
+      --tw-border-opacity: 1;
+      border-color: #fca5a5;
+      border-color: rgba(252, 165, 165, var(--tw-border-opacity))
+    }
+
+    .focus\:text-gray-600:focus {
+      --tw-text-opacity: 1;
+      color: #4b5563;
+      color: rgba(75, 85, 99, var(--tw-text-opacity))
+    }
+
+    .focus\:border-green-300:focus {
+      --tw-border-opacity: 1;
+      border-color: #6ee7b7;
+      border-color: rgba(110, 231, 183, var(--tw-border-opacity))
+    }
+
+    .focus\:border-red-300:focus {
+      --tw-border-opacity: 1;
+      border-color: #fca5a5;
+      border-color: rgba(252, 165, 165, var(--tw-border-opacity))
+    }
+
+    .focus\:outline-none:focus {
+      outline: 2px solid transparent;
+      outline-offset: 2px
+    }
+
+    .focus\:bg-gray-600:focus {
+      --tw-bg-opacity: 1;
+      background-color: #4b5563;
+      background-color: rgba(75, 85, 99, var(--tw-bg-opacity))
+    }
+
+    .focus\:bg-gray-100:focus {
+      --tw-bg-opacity: 1;
+      background-color: #f3f4f6;
+      background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    }
+
+    @media (min-width:640px) {
+      .sm\:\!text-sm {
+        font-size: 0.875rem !important;
+        line-height: 1.25rem !important
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:hidden {
+        display: none
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:inline {
+        display: inline
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:mt-0 {
+        margin-top: 0px
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:col-span-2 {
+        grid-column: span 2 / span 2
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:\!leading-5 {
+        line-height: 1.25rem !important
+      }
+    }
+
+    @media (min-width:640px) {
+      .sm\:pb-20 {
+        padding-bottom: 5rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:hidden {
+        display: none
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:flex {
+        display: flex
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:block {
+        display: block
+      }
+    }
+
+    @media (min-width:768px) {
+      .md\:flex-shrink-0 {
+        flex-shrink: 0
+      }
+    }
+  </style>
+  
+  <link rel="icon" href="./favicon.ico" sizes="32x32" />
+  <link rel="icon" href="./logo.svg" type="image/svg+xml" />
+  <meta name="keywords" content="Deno, DenoLand, Development, JavaScript, TypeScript" />
+
+  <title>Introduction | Manual | Deno</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/hljs-github.css" type="text/css" />
+  
+    <link rel="stylesheet" href="./lib/hightlight/lib/styles/default.css" type="text/css" />
+    <script src ="./lib/hightlight/lib/highlightjs.js"></script>
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        skipStartupTypeset: false,
+        messageStyle: "none",
+        tex2jax: {
+          inlineMath: [['$','$'],['\\(','\\)']],
+          displayMath: [['$$','$$'],['\\[','\\]']],
+          processEscapes:true
+        },
+        asciimath2jax: {delimiters: [["''","''"]]},
+      });
+    </script>
+     <script type='importmap'>
+     {
+       "imports":{
+         "marked":"./lib/marked/src/marked.js",
+         "createDOMPurify":"./lib/DOMPurify/src/purify.js"
+       }
+     }
+    </script>     
+ 
+</head>
+
+<body>
+  <div id="__FRSH">
+    <div class="h-screen">
+      <div>
+        <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+        <div id="manualSearch" class="hidden"></div>
+        <script>
+          docsearch({
+            container: "#manualSearch",
+            appId: "DMFING7U5D",
+            indexName: "deno_manual",
+            apiKey: "577997f9f7a4b0100d359afde8065583",
+            searchParameters: {
+              distinct: 1,
+            },
+          });
+        </script>
+        
+        <div class="h-screen flex overflow-hidden">
+          <input type="checkbox" class="hidden" id="manualSidebarToggle" autoComplete="off" />
+          
+          
+          <div class="hidden md:flex md:flex-shrink-0">
+            <div class="flex flex-col w-72 border-r border-gray-200 bg-gray-50">
+            
+              <div class="bg-gray-100 pb-4 pt-4 border-b border-gray-200">
+                <a href="./index.html" class="flex items-center flex-shrink-0 px-4">
+                  <img src="./logo.svg" alt="logo" class="w-auto h-12" />
+                  <div class="mx-4 flex flex-col justify-center">
+                    <div class="font-bold text-gray-900 leading-6 text-2xl tracking-tight">Deno Manual</div>
+                  </div>
+                </a>
+              </div>
+              
+              
+              <div class="pt-2 pb-8 h-0 flex-1 flex flex-col overflow-y-auto">
+                <nav class="flex-1 px-4" id = "toc"></nav>
+              </div>
+              
+              
+            </div>
+          </div>
+          
+          <div class="flex flex-col w-0 flex-1 overflow-hidden">
+            <div class="z-10 flex-shrink-0 flex h-16 bg-white shadow md:hidden"><a href="./manual.htm" class="px-4 flex items-center justify-center md:hidden"><img src="./logo.svg" alt="logo" class="w-auto h-10" /></a>
+              <div class="border-l border-r border-gray-200 flex-1 px-4 flex justify-between">
+                <div class="flex-1 flex">
+                  <div class="w-full flex justify-between h-full"><label for="search_field" class="sr-only">Search</label><button class="w-full text-gray-400 focus-within:text-gray-600 flex items-center" onClick="document.querySelector('#manualSearch button').click()">
+                      <div class="flex items-center pointer-events-none"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" clipRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"></path>
+                        </svg></div>
+                      <div class="pl-6"><span class="inline sm:hidden">Search docs</span><span class="hidden sm:inline">Search the docs (press <code class="py-1 px-2 font-mono bg-gray-100 text-sm break-all rounded-[6px]">/</code> to focus)</span></div>
+                    </button></div>
+                </div>
+            </div>
+            <label class="focus:outline-none focus:bg-gray-100 md:hidden flex items-center" for="manualSidebarToggle">
+                <div class="px-4 text-gray-500 focus:text-gray-600"><svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7"></path>
+                  </svg>
+                </div>
+            </label>
+          </div>
+          
+          <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none" tabIndex="0">
+              <div class="h-16 bg-white shadow hidden md:block">
+                <div class="max-w-screen-md mx-auto px-12 w-full flex justify-between h-full"><label for="search_field" class="sr-only">Search</label><button class="w-full text-gray-400 focus-within:text-gray-600 flex items-center" onClick="document.querySelector('#manualSearch button').click()">
+                    <div class="flex items-center pointer-events-none"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"></path>
+                      </svg></div>
+                    <div class="pl-6">Search the docs (press <code class="py-1 px-2 font-mono bg-gray-100 text-sm break-all rounded-[6px]">/</code> to focus)</div>
+                  </button></div>
+              </div>
+              
+              <div id = "content"></div>
+             
+
+            </main>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script type="module">
+       import { marked } from "marked";
+       import createDOMPurify from "createDOMPurify";
+       
+       var MathJax
+       var hljs = window.hljs
+       function loadMathjax(target){
+         if (null == MathJax) {
+           var script = document.createElement("script");
+           script.type = "text/javascript";
+           script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+           document.getElementsByTagName("head")[0].appendChild(script);
+         }else{
+           MathJax.Hub.Queue(["resetEquationNumbers",MathJax.InputJax.TeX], ["Typeset", MathJax.Hub, target]);
+         }
+       }    
+       (function () {
+          marked.setOptions({
+            highlight: function (code) {return hljs.highlightAuto(code).value;},
+            renderer: new marked.Renderer(),
+            gfm: true,
+            tables: true,
+            breaks: false,
+            pedantic: false,
+            sanitize: false,
+            smartLists: true,
+            smartypants: false
+          });
+          window.purify = createDOMPurify()
+          var DOMPurify = window.purify
+       
+          function loadTOC(file) {
+              var client = new XMLHttpRequest();
+              client.open('GET', file);
+              client.onload = function () {
+                 var html = marked.parse(client.responseText)
+                 html = DOMPurify.sanitize(html)
+                 html = html.replace(new RegExp(' \\\\ ','g'), ' \\\\ ')
+                 document.getElementById("toc").innerHTML = html;
+              }    
+              client.send();
+          }
+          loadTOC("toc.md")
+          
+          var contentDiv = document.getElementById("content");
+          function renderText(text) {
+             var html = marked.parse(text)
+             html = DOMPurify.sanitize(html)
+             html = html.replace(new RegExp(' \\\\ ','g'), ' \\\\ ')
+             var nextRE = /<\s*a\s*[^>]*>(.*?)→<\s*\/\s*a>/g
+             var nextTest = nextRE.test(html)
+             if(nextTest === true) {
+                var next = html.match(nextRE)
+                html = html.replace(nextRE,next[0].replace(/<\s*a/, '<a class="next"'))
+             }
+             var prevRE = /<\s*a\s*[^>]*>←(.*?)<\s*\/\s*a>/g
+             var prevTest = prevRE.test(prevRE)
+             if(prevTest == true ) {
+               var prev = html.match(nextRE)
+               html = html.replae(prevRE,prev[0].replace(/<\s*a/, '<a class="prev"'))
+             }
+             contentDiv.innerHTML = html;
+             if(contentDiv.innerHTML){
+              
+              loadMathjax(contentDiv)
+              }
+          }
+
+          function loadTextFromFile(file) {
+              var client = new XMLHttpRequest();
+              client.open('GET', file);
+              client.onload = function () {
+                  renderText(client.responseText);
+              }
+              client.send();
+          }
+          if(location.search.length <= 1) {
+              loadTextFromFile("introduction.md");
+           }   
+          else {
+             var file = location.search.slice(1)
+             if(file.endsWith(".md")) {
+               loadTextFromFile(file)
+             }
+             else {  
+               loadTextFromFile(file + ".md");
+             }  
+          }    
+       })();
+    </script>
+  </body>
+</html>

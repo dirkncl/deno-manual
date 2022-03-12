@@ -1,8 +1,10 @@
 # Deno manual
 
-This repository is the official documentation for Deno.
+This repository is unofficial documentation for Deno.
+[Deno Manual](https://dirkncl.github.io/deno-manual/)
 
-Manual is available at: https://deno.land/manual
+
+For official documentation available at: https://deno.land/manual
 
 ## Contributing
 

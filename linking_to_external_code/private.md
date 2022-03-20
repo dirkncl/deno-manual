@@ -84,4 +84,4 @@ number of tokens that are parsed out of the environment variable. It will print
 an error message if it feels any of the tokens are malformed. It won't print any
 details about the tokens for security purposes.
 
-[Import maps →](?./linking_to_external_code/import_maps)[← Proxies](?./linking_to_external_code/proxies)
+[Import maps →](./linking_to_external_code/import_maps.md)[← Proxies](./linking_to_external_code/proxies.md)

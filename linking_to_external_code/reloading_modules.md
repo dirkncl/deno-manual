@@ -32,4 +32,4 @@ deno cache --reload=https://deno.land/std@$STD_VERSION/fs/copy.ts,https://deno.l
 
 <!-- Should this be part of examples? -->
 
-[Integrity checking →](?./linking_to_external_code/integrity_checking)[← Linking to external code](?./linking_to_external_code)
+[Integrity checking →](./linking_to_external_code/integrity_checking.md)[← Linking to external code](./linking_to_external_code.md)

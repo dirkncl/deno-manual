@@ -6,8 +6,8 @@ which is specifically tailored to provide a _Deno_ view of code. It is
 integrated into the command line and can be started via the `lsp` sub-command.
 
 Most users will never interact with the server directly, but instead will via
-[`vscode_deno`](?./vscode_deno.md) or another
-[editor extension](?./getting_started/setup_your_environment.md). This
+[`vscode_deno`](./vscode_deno.md) or another
+[editor extension](./getting_started/setup_your_environment.md). This
 documentation is for those implementing a editor client.
 
 ### Structure
@@ -182,4 +182,4 @@ The language server supports only formatting for the following language IDs:
 - `"markdown"`
 
 
-[Import suggestions and intelligent registries →](?./language_server/imports)[← Language Server](?./language_server)
+[Import suggestions and intelligent registries →](./language_server/imports.md)[← Language Server](./language_server.md)

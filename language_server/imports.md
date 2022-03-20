@@ -391,4 +391,4 @@ to do is add the domain to `deno.suggest.imports.hosts` and set the value to
   small scripts.
 
   
-[Embedding Deno →](?./embedding_deno)[← Overview of the language server](?./language_server/overview)
+[Embedding Deno →](./embedding_deno.md)[← Overview of the language server](./language_server/overview.md)

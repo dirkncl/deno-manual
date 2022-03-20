@@ -84,4 +84,4 @@ which are not yet cached.
 
 <!-- TODO - Add detail on dynamic imports -->
 
-[Proxies →](?./linking_to_external_code/proxies)[← Reloading modules](?./linking_to_external_code/reloading_modules)
+[Proxies →](./linking_to_external_code/proxies.md)[← Reloading modules](./linking_to_external_code/reloading_modules.md)

@@ -52,4 +52,4 @@ import { MyUtil } from "/util.ts";
 This causes import specifiers starting with `/` to be resolved relative to the
 import map's URL or file path.
 
-[Interoperating with Node and NPM →](?./node)[← Private modules](?./linking_to_external_code/private)
+[Interoperating with Node and NPM →](./node.md)[← Private modules](./linking_to_external_code/private.md)

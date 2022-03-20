@@ -8,4 +8,4 @@ Proxy configuration is read from environmental variables: `HTTP_PROXY`,
 In case of Windows, if environment variables are not found Deno falls back to
 reading proxies from registry.
 
-[Private modules →](?./linking_to_external_code/private)[← Integrity checking](?./linking_to_external_code/integrity_checking)
+[Private modules →](./linking_to_external_code/private.md)[← Integrity checking](./linking_to_external_code/integrity_checking.md)

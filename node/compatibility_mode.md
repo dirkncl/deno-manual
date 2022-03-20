@@ -162,4 +162,4 @@ In the upcoming releases we plan to add support for a `types` field in
 In the long term, we'd like to provide ability to consume TypeScript code
 authored for the Node runtime.
 
-[The std/node library →](?./node/std_node)[← Interoperating with Node and NPM](?./node)
+[The std/node library →](./node/std_node.md)[← Interoperating with Node and NPM](./node.md)

@@ -85,7 +85,7 @@ function bar(a: any) {
 ### Configuration
 
 Starting with Deno v1.14 a linter can be customized using either
-[a configuration file](?./getting_started/configuration_file.md) or following
+[a configuration file](./getting_started/configuration_file.md) or following
 CLI flags:
 
 - `--rules-tags` - List of tag names that will be run. Empty list disables all
@@ -98,4 +98,4 @@ CLI flags:
   is in `exclude` it will be run.
 
 
-[Vendoring dependencies →](?./tools/vendor)[← Dependency inspector](?./tools/dependency_inspector)
+[Vendoring dependencies →](./tools/vendor.md)[← Dependency inspector](./tools/dependency_inspector.md)

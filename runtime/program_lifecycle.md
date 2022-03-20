@@ -82,4 +82,4 @@ handlers will be executed. It is preferable to use `addEventListener` when
 possible for this reason.
 
 
-[Permission APIs →](?./runtime/permission_apis)[← Stabiity](?./runtime/stability)
+[Permission APIs →](./runtime/permission_apis.md)[← Stabiity](./runtime/stability.md)

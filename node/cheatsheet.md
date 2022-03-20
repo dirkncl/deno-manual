@@ -20,7 +20,7 @@
 | `nyc` / `c8` / `istanbul`              | `deno coverage`                                |
 | benchmarks                             | https://deno.land/std/testing/bench.ts ³       |
 
-¹ See [Linking to external code](?./linking_to_external_code.md), the runtime
+¹ See [Linking to external code](./linking_to_external_code.md), the runtime
 downloads and caches the code on first use.
 
 ² Type checking happens automatically, TypeScript compiler is built into the
@@ -30,4 +30,4 @@ downloads and caches the code on first use.
 https://github.com/denoland/deno/issues/9175
 
 
-[Using TypeScript →](?./typescript)[← Frequently asked questions](?./node/faqs)
+[Using TypeScript →](./typescript.md)[← Frequently asked questions](./node/faqs.md)

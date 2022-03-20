@@ -270,4 +270,4 @@ provide you with an array of _ignoredOptions_ if there are any.
 > from `tsc` or are otherwise incompatible. If you do find something that
 > doesn't work, please do feel free to raise an issue.
 
-[Frequently asked questions →](?./typescript/faqs)[← Migrating to/from JavaScript](?./typescript/migration)
+[Frequently asked questions →](./typescript/faqs.md)[← Migrating to/from JavaScript](./typescript/migration.md)

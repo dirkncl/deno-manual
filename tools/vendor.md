@@ -39,4 +39,4 @@ deno vendor main.ts test.deps.ts https://deno.land/std/path/mod.ts
 Run `deno vendor --help` for more details.
 
 
-[Continuous integration →](?./continuous_integration)[← Linter](?./tools/linter)
+[Continuous integration →](./continuous_integration.md)[← Linter](./tools/linter.md)

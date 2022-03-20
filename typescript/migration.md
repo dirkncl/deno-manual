@@ -71,4 +71,4 @@ non-strict mode will result in diagnostics being generated, and JavaScript is
 nothing but unclear and ambiguous when it comes to types.
 
 
-[Runtime compiler APIs →](?./typescript/runtime)[← Types and type declarations](?./typescript/types)
+[Runtime compiler APIs →](./typescript/runtime.md)[← Types and type declarations](./typescript/types.md)

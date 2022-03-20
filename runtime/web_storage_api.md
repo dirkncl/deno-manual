@@ -56,4 +56,4 @@ The syntax for removing all the localStorage items is as follows:
 localStorage.clear();
 ```
 
-[Workers →](?./runtime/workers)[← Location API](?./runtime/location_api)
+[Workers →](./runtime/workers.md)[← Location API](./runtime/location_api.md)

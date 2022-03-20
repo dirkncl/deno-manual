@@ -1,13 +1,13 @@
 ## Using import maps
 
-Deno supports [import maps](?./linking_to_external_code/import_maps.md) which
+Deno supports [import maps](./linking_to_external_code/import_maps.md) which
 allow you to supply Deno with information about how to resolve modules that
 overrides the default behavior. Import maps are a web platform standard that is
 increasingly being included natively in browsers. They are specifically useful
 with adapting Node code to work well with Deno, as you can use import maps to
 map "bare" specifiers to a specific module.
 
-When coupled with Deno friendly [CDNs](?./cdns.md) import maps can be a powerful
+When coupled with Deno friendly [CDNs](./node/cdns.md) import maps can be a powerful
 tool in managing code and dependencies without need of a package management
 tool.
 
@@ -33,7 +33,7 @@ including its query string, as a "unique" module that can be loaded. It expects
 the CDN/web server to provide it with a valid media/content type to instruct
 Deno how to handle the file. More information on how media types impact how Deno
 handles modules can be found in the
-[Determining the type of file](?./typescript/overview.md#determining-the-type-of-file)
+[Determining the type of file](./typescript/overview.md#determining-the-type-of-file)
 section of the manual.
 
 Node does have defined semantics for resolving specifiers, but they are complex,
@@ -111,4 +111,4 @@ Import maps can be very powerful, check out the official
 [standards README](https://github.com/WICG/import-maps#the-import-map) for more
 information.
 
-[Frequently asked questions →](?./node/faqs)[← Packages from CDNs](?./node/cdns)
+[Frequently asked questions →](./node/faqs.md)[← Packages from CDNs](./node/cdns.md)

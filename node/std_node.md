@@ -2,7 +2,7 @@
 
 > ⚠️ Starting with v1.15 Deno provides a compatibility mode, that allows to
 > emulate Node environment and consume code authored for Node directly. See
-> [Node compatibility mode](?./compatibility_mode.md) chapter for details.
+> [Node compatibility mode](./node/compatibility_mode.md) chapter for details.
 
 The `std/node` part of the Deno standard library is a Node compatibility layer.
 Its primary focus is providing "polyfills" for Node's
@@ -11,7 +11,7 @@ It also provides a mechanism for loading CommonJS modules into Deno.
 
 The library is most useful when trying to use your own or private code that was
 written for Node. If you are trying to consume public npm packages, you are
-likely to get a better result using a [CDN](?./cdns.md).
+likely to get a better result using a [CDN](./node/cdns.md).
 
 ### Node built-in modules
 
@@ -131,4 +131,4 @@ When modules are loaded via the created `require()`, they are executed in a
 context which is similar to a Node context, which means that a lot of code
 written targeting Node will work.
 
-[Packages from CDNs →](?./node/cdns)[← Node compatibility mode](?./node/compatibility_mode)
+[Packages from CDNs →](./node/cdns.md)[← Node compatibility mode](./node/compatibility_mode.md)

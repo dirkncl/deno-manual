@@ -189,4 +189,4 @@ console.log(await Deno.permissions.query(desc));
 // PermissionStatus { state: "prompt" }
 ```
 
-[Web Platform APIs →](?./runtime/web_platform_apis)[← Program lifecycle](?./runtime/program_lifecycles)
+[Web Platform APIs →](./runtime/web_platform_apis.md)[← Program lifecycle](./runtime/program_lifecycles.md)

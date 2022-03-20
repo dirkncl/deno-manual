@@ -12,7 +12,7 @@ inferred.
 
 ### Flags
 
-As with [`deno install`](?./script_installer.md), the runtime flags used to
+As with [`deno install`](./tools/script_installer.md), the runtime flags used to
 execute the script must be specified at compilation time. This includes
 permission flags.
 
@@ -20,7 +20,7 @@ permission flags.
 > deno compile --allow-read --allow-net https://deno.land/std/http/file_server.ts
 ```
 
-[Script arguments](?./getting_started/command_line_interface.md#script-arguments)
+[Script arguments](./getting_started/command_line_interface.md#script-arguments)
 can be partially embedded.
 
 ```
@@ -36,4 +36,4 @@ x64. Use `deno compile --help` to list the full values for each compilation
 target.
 
 
-[Documentation generator →](?./tools/documentation_generator)[← Bundler](?./tools/bundler)
+[Documentation generator →](./tools/documentation_generator.md)[← Bundler](./tools/bundler.md)

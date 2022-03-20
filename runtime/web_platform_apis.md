@@ -17,7 +17,7 @@ Here is a list of web platform APIs Deno implements:
 - [Encoding API](https://developer.mozilla.org/en-US/docs/Web/API/Encoding_API)
 - [Fetch API](#fetch-api)
 - [`FormData`](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
-- [Location API](?./location_api.md)
+- [Location API](./runtime/location_api.md)
 - [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance)
 - [`setTimeout`, `setInterval`, `clearInterval`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
@@ -25,7 +25,7 @@ Here is a list of web platform APIs Deno implements:
 - [`URLPattern`](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern)
 - [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
 - [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
-- [Web Storage API](?./web_storage_api.md)
+- [Web Storage API](./runtime/web_storage_api.md)
 - [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Worker)
 - [`WebSocket`](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 
@@ -82,7 +82,7 @@ to author code that work both under the Deno CLI and Deno Deploy.
 
 Deno only supports absolute file URLs, this means that `fetch("./some.json")`
 will not work. It should be noted though that if
-[`--location`](?./location_api.md) is specified, relative URLs use the
+[`--location`](./runtime/location_api.md) is specified, relative URLs use the
 `--location` as the base, but a `file:` URL cannot be passed as the
 `--location`.
 
@@ -138,4 +138,4 @@ Definitions that are specific to workers can be found in the
 [`lib.deno.worker.d.ts`](https://github.com/denoland/deno/blob/$CLI_VERSION/cli/dts/lib.deno.worker.d.ts)
 file.
 
-[HTTP Server APIs →](?./runtime/http_server_apis)[← Permission APIs](?./runtime/permission_apis)
+[HTTP Server APIs →](./runtime/http_server_apis.md)[← Permission APIs](./runtime/permission_apis.md)

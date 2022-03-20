@@ -40,4 +40,4 @@ module specifier must _match_ the include_regular expression and _not match_ the
 exclude_ expression for it to be a part of the report.
 
 
-[Documentation →](?./testing/documentation)[← Assertions](?./testing/assertions)
+[Documentation →](./testing/documentation.md)[← Assertions](./testing/assertions.md)

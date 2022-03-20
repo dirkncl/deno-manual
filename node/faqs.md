@@ -50,8 +50,8 @@ default, Deno only includes the libraries that are directly supported. Assuming
 the package properly identifies what environment it is running in at runtime it
 is "safe" to use the DOM libraries to type check the code. For more information
 on this, check out the
-[Targeting Deno and the Browser](?./typescript/configuration.md#targeting-deno-and-the-browser)
+[Targeting Deno and the Browser](./typescript/configuration.md#targeting-deno-and-the-browser)
 section of the manual.
 
 
-[Node->Deno cheatsheet →](?./node/cheatsheet)[← Using import maps](?./node/import_maps)
+[Node->Deno cheatsheet →](./node/cheatsheet.md)[← Using import maps](./node/import_maps.md)

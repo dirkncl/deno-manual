@@ -31,4 +31,4 @@ Note that unlike the `Deno` namespace, the use of the standard modules do not
 require the `--unstable` flag (unless the standard module itself makes use of an
 unstable Deno feature).
 
-[Program lifecycle →](?./runtime/program_lifecycle)[← The Runtime](?./runtime)
+[Program lifecycle →](./runtime/program_lifecycle.md)[← The Runtime](./runtime.md)

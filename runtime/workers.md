@@ -79,7 +79,7 @@ hello world
 ### Using Deno in worker
 
 > This is an unstable Deno feature. Learn more about
-> [unstable features](?./stability.md).
+> [unstable features](./runtime/stability.md).
 
 By default the `Deno` namespace is not available in worker scope.
 
@@ -123,12 +123,12 @@ hello world
 ### Specifying worker permissions
 
 > This is an unstable Deno feature. Learn more about
-> [unstable features](?./stability.md).
+> [unstable features](./runtime/stability.md).
 
 The permissions available for the worker are analogous to the CLI permission
 flags, meaning every permission enabled there can be disabled at the level of
 the Worker API. You can find a more detailed description of each of the
-permission options [here](?./getting_started/permissions.md).
+permission options [here](./getting_started/permissions.md).
 
 By default a worker will inherit permissions from the thread it was created in,
 however in order to allow users to limit the access of this worker we provide
@@ -250,4 +250,4 @@ the `deno.permissions` option in the worker API.
   });
   ```
 
- [Foreign Function Interface API →](?./runtime/ffi_api)[← Web Storage API](?./runtime/web_storage_api)
+ [Foreign Function Interface API →](./runtime/ffi_api.md)[← Web Storage API](./runtime/web_storage_api.md)

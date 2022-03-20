@@ -75,4 +75,4 @@ mind for emulating a document location and are aware that this will only work at
 application-level. However, you may also use it to silence errors from a
 dependency which is frivolously accessing the `location` global.
 
-[Web Storage API →](?./runtime/web_storage_api)[← HTTP Server APIs (low level)](?./runtime/http_server_apis_low_level)
+[Web Storage API →](./runtime/web_storage_api.md)[← HTTP Server APIs (low level)](./runtime/http_server_apis_low_level.md)

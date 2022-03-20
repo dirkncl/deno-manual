@@ -290,4 +290,4 @@ This means when you import a `.d.ts` module, or you use one of the solutions
 above to provide alternative type modules for JavaScript code, that is what is
 provided to TypeScript instead when resolving the module.
 
-[Migrating to/from JavaScript →](?./typescript/migration)[← Configuration](?./typescript/configuration)
+[Migrating to/from JavaScript →](./typescript/migration.md)[← Configuration](./typescript/configuration.md)

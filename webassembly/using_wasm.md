@@ -52,4 +52,4 @@ Aside from the methods shown in the preceding example, it is also possible to
 use the streaming methods of the WebAssembly API, as will be shown on the next
 page.
 
-[Using the streaming WebAssembly APIs →](?./webassembly/using_streaming_wasm)[← Using WebAssembly](?./webassembly)
+[Using the streaming WebAssembly APIs →](./webassembly/using_streaming_wasm.md)[← Using WebAssembly](./webassembly.md)

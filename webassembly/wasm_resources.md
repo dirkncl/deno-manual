@@ -41,4 +41,4 @@ a list of tools that can be used to optimize and manipulate WebAssembly
 binaries.
 
 
-[Standard library →](?./standard_library)[← Using the streaming WebAssembly APIs](?./webassembly/using_streaming_wasm)
+[Standard library →](./standard_library.md)[← Using the streaming WebAssembly APIs](./webassembly/using_streaming_wasm.md)

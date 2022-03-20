@@ -74,4 +74,4 @@ TypeScript compiler cache: "/Users/deno/Library/Caches/deno/gen"
 ```
 
 
-[Linter →](?./tools/linter)[← Documentation generator](?./tools/documentation_generator)
+[Linter →](./tools/linter.md)[← Documentation generator](./tools/documentation_generator.md)

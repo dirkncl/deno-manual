@@ -51,4 +51,4 @@ Or you could import it into another ES module to consume:
 ```
 
 
-[Compiling executables →](?./tools/compiler)[← Read-eval-print-loop](?./tools/repl)
+[Compiling executables →](./tools/compiler.md)[← Read-eval-print-loop](./tools/repl.md)

@@ -297,4 +297,4 @@ Deno.test("Test Assert PowerOf", () => {
 ```
 
 
-[Coverage →](?./testing/coverage)[← Testing](?./testing)
+[Coverage →](./testing/coverage.md)[← Testing](./testing.md)

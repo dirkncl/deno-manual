@@ -128,7 +128,7 @@ as TypeScript continued to evolve, would be breaking changes for existing code.
 ### Mixing JavaScript and TypeScript
 
 By default, Deno does not type check JavaScript. This can be changed, and is
-discussed further in [Configuring TypeScript in Deno](?./configuration.md). Deno
+discussed further in [Configuring TypeScript in Deno](./typescript/configuration.md). Deno
 does support JavaScript importing TypeScript and TypeScript importing
 JavaScript, in complex scenarios.
 
@@ -137,7 +137,7 @@ will "read" all the JavaScript in order to be able to evaluate how it might have
 an impact on the TypeScript types. The type checker will do the best it can to
 figure out what the types are of the JavaScript you import into TypeScript,
 including reading any JSDoc comments. Details of this are discussed in detail in
-the [Types and type declarations](?./types.md) section.
+the [Types and type declarations](./typescript/types.md) section.
 
 ### Diagnostics are terminal
 
@@ -156,7 +156,7 @@ One of the core design principles of Deno is to avoid non-standard module
 resolution, and this applies to type resolution as well. If you want to utilise
 JavaScript that has type definitions (e.g. a `.d.ts` file), you have to
 explicitly tell Deno about this. The details of how this is accomplished are
-covered in the [Types and type declarations](?./types.md) section.
+covered in the [Types and type declarations](./typescript/types.md) section.
 
 
-[Configuration →](?./typescript/configuration)[← Using TypeScript](?./typescript)
+[Configuration →](./typescript/configuration.md)[← Using TypeScript](./typescript.md)

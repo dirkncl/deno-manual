@@ -109,4 +109,4 @@ readTextFileSync  readFileSync      readDir           readLink          readAllS
 | Meta-Y                | See Ctrl-Y                                                                                       |
 
 
-[Bundler →](?./tools/bundler)[← Formatter](?./tools/formatter)
+[Bundler →](./tools/bundler.md)[← Formatter](./tools/formatter.md)

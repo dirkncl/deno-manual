@@ -31,4 +31,4 @@ format is consumed by the
 module documentation.
 
 
-[Dependency inspector →](?./tools/dependency_inspector)[← Compiling executables](?./tools/compiler)
+[Dependency inspector →](./tools/dependency_inspector.md)[← Compiling executables](./tools/compiler.md)

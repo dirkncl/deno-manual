@@ -288,6 +288,6 @@ probably use this API, as it handles all of the intricacies of parallel requests
 on a single connection, error handling, and so on.
 
 If you do want to learn more about the low level HTTP server APIs though, you
-can [read more about them here](?./http_server_apis_low_level).
+can [read more about them here](./runtime/http_server_apis_low_level.md).
 
-[HTTP Server APIs (low level) →](?./runtime/http_server_apis_low_level)[← Web Platform APIs](?./runtime/web_platform_apis)
+[HTTP Server APIs (low level) →](./runtime/http_server_apis_low_level.md)[← Web Platform APIs](./runtime/web_platform_apis.md)

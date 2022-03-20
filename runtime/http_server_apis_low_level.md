@@ -8,7 +8,7 @@ users to create robust and performant web servers in Deno.
 
 > ⚠️ You should probably not be using this API, as it is not easy to get right.
 > Use the
-> [higher level API in the standard library instead](?./http_server_apis).
+> [higher level API in the standard library instead](./runtime/http_server_apis.md).
 
 ### Listening for a connection
 
@@ -311,4 +311,4 @@ WebSockets are only supported on HTTP/1.1 for now. The connection the WebSocket
 was created on can not be used for HTTP traffic after a WebSocket upgrade has
 been performed.
 
-[Location API →](?./runtime/location_api)[← HTTP Server APIs](?./runtime/http_server_apis)
+[Location API →](./runtime/location_api.md)[← HTTP Server APIs](./runtime/http_server_apis.md)

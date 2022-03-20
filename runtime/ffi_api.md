@@ -195,4 +195,4 @@ mul({ a: 10, b: 2 }); // 20
 Any issues related to `deno_bindgen` should be reported at
 https://github.com/littledivy/deno_bindgen/issues
 
-[Linking to external code →](?./linking_to_external_code)[← Workers](?./runtime/workers)
+[Linking to external code →](./linking_to_external_code.md)[← Workers](./runtime/workers.md)

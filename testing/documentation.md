@@ -49,4 +49,4 @@ export function foo(): string {
 ````
 
 
-[Sanitizers →](?./testing/sanitizers)[← Coverage](?./testing/coverage)
+[Sanitizers →](./testing/sanitizers.md)[← Coverage](./testing/coverage.md)

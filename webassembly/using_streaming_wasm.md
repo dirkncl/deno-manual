@@ -40,4 +40,4 @@ see for example
 [this post](https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/).
 
 
-[Helpful resources →](?./webassembly/wasm_resources)[← Using WebAssembly in Deno](?./webassembly/using_wasm)
+[Helpful resources →](./webassembly/wasm_resources.md)[← Using WebAssembly in Deno](./webassembly/using_wasm.md)

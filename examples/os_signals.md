@@ -102,4 +102,4 @@ deno run async_iterator_signal.ts
 ```
 
 
-[File system events →](?./examples/file_system_events)[← Creating a subprocess](?./examples/subprocess)
+[File system events →](./examples/file_system_events.md)[← Creating a subprocess](./examples/subprocess.md)

@@ -35,4 +35,4 @@ To run the program:
 deno run --allow-read https://deno.land/std@$STD_VERSION/examples/cat.ts /etc/passwd
 ```
 
-[HTTP web server →](?./examples/http_server)[← Read and write files](?./examples/read_write_files)
+[HTTP web server →](./examples/http_server.md)[← Read and write files](./examples/read_write_files.md)

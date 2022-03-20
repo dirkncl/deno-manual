@@ -69,4 +69,4 @@ Is module B the main module via import.meta.main? false
 ```
 
 
-[Testing →](?./testing)[← File system events](?./examples/file_system_events)
+[Testing →](./testing.md)[← File system events](./examples/file_system_events.md)

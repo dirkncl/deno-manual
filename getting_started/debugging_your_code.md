@@ -84,7 +84,7 @@ to debug the code.
 
 Deno can be debugged using VSCode. This is best done with help from the official
 `vscode_deno` extension. Documentation for this can be found
-[here](?./vscode_deno#using-the-debugger).
+[here](./vscode_deno#using-the-debugger).
 
 ### JetBrains IDEs
 
@@ -108,4 +108,4 @@ Any client that implements the DevTools protocol should be able to connect to a
 Deno process.
 
 
-[The Runtime →](?./runtime)[← Permissions](?./getting_started/permissions)
+[The Runtime →](./runtime.md)[← Permissions](./getting_started/permissions.md)

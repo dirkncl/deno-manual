@@ -37,4 +37,4 @@ To switch back to the stable channel, run `deno upgrade`.
 Canaries can be downloaded from https://dl.deno.land.
 
 
-[Introduction →](?./introduction)[← Architecture](?./contributing/architecture)
+[Introduction →](./introduction.md)[← Architecture](./contributing/architecture.md)

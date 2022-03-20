@@ -6,10 +6,10 @@
 | ------------------------------: | :------------------------------------------- |
 |                       Processes | Web Workers                                  |
 |                        Syscalls | Ops                                          |
-|           File descriptors (fd) | [Resource ids (rid)](?./architecture#resources) |
+|           File descriptors (fd) | [Resource ids (rid)](./contributing/architecture.md#resources) |
 |                       Scheduler | Tokio                                        |
 | Userland: libc++ / glib / boost | https://deno.land/std/                       |
-|                 /proc/\$\$/stat | [Deno.metrics()](?./architecture#metrics)       |
+|                 /proc/\$\$/stat | [Deno.metrics()](./contributing/architecture.md#metrics)       |
 |                       man pages | deno types                                   |
 
 #### Resources
@@ -64,4 +64,4 @@ Metrics is Deno's internal counter for various statistics.
   built](https://www.youtube.com/watch?v=AOvg_GbnsbA&t=35m13s). Paris Deno.
 
   
-[Release schedule →](?./contributing/release_schedule)[← Style guide](?./contributing/style_guide)
+[Release schedule →](./contributing/release_schedule.md)[← Style guide](./contributing/style_guide.md)

@@ -13,7 +13,7 @@
 ## Overview
 
 Sending files over the network is a common requirement. As seen in the
-[Fetch Data example](?./fetch_data), because files can be of any size, it is
+[Fetch Data example](./examples/fetch_data.md), because files can be of any size, it is
 important to use streams in order to prevent having to load entire files into
 memory.
 
@@ -123,4 +123,4 @@ Deno File Server
 ```
 
 
-[TCP echo server →](?./examples/tcp_echo)[← HTTP web server](?./examples/http_server)
+[TCP echo server →](./examples/tcp_echo.md)[← HTTP web server](./examples/http_server.md)

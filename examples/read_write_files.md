@@ -20,7 +20,7 @@ Deno provides a number of ways to do this via the
 [standard library](https://deno.land/std) and the
 [Deno runtime API](https://doc.deno.land/deno/stable).
 
-As highlighted in the [Fetch Data example](?./fetch_data) Deno restricts access
+As highlighted in the [Fetch Data example](./examples/fetch_data.md) Deno restricts access
 to Input / Output by default for security reasons. Therefore when interacting
 with the filesystem the `--allow-read` and `--allow-write` flags must be used
 with the `deno run` command.
@@ -104,4 +104,4 @@ console.log(writeJson("./data.json", { hello: "World" }));
  */
 ```
 
-[Unix cat program →](?./examples/unix_cat)[← Fetch data](?./examples/fetch_data)
+[Unix cat program →](./examples/unix_cat.md)[← Fetch data](./examples/fetch_data.md)

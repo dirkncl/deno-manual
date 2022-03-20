@@ -119,4 +119,4 @@ inside external modules must be exported. Either by prepending them with the
 `export` keyword or including them in an export statement at the bottom of the
 file.
 
-[Manage dependencies →](?./examples/manage_dependencies)[← Hello world](?./examples/hello_world)
+[Manage dependencies →](./examples/manage_dependencies.md)[← Hello world](./examples/hello_world.md)

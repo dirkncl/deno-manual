@@ -27,7 +27,7 @@ deno bundle -h
 deno bundle --help
 ```
 
-Detailed guides for each subcommand can be found [here](?./tools.md).
+Detailed guides for each subcommand can be found [here](./tools.md).
 
 ### Script source
 
@@ -117,7 +117,7 @@ Affect commands which can download resources to the cache: `deno cache`,
 ```
 
 Find out more about these
-[here](?./linking_to_external_code/integrity_checking.md).
+[here](./linking_to_external_code/integrity_checking.md).
 
 ### Cache and compilation flags
 
@@ -141,7 +141,7 @@ include all of the above as well as the following.
 
 #### Permission flags
 
-These are listed [here](?./permissions.md#permissions-list).
+These are listed [here](./getting_started/permissions.md#permissions-list).
 
 #### Other runtime flags
 
@@ -158,4 +158,4 @@ More flags which affect the execution environment.
 ```
 
 
-[Configuration file →](?./getting_started/configuration_file)[← First steps](?./getting_started/first_steps)
+[Configuration file →](./getting_started/configuration_file.md)[← First steps](./getting_started/first_steps.md)

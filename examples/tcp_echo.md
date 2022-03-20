@@ -42,9 +42,9 @@ hello world
 hello world
 ```
 
-Like the [cat.ts example](?./unix_cat.md), the `copy()` function here also does
+Like the [cat.ts example](./examples/unix_cat.md), the `copy()` function here also does
 not make unnecessary memory copies. It receives a packet from the kernel and
 sends back, without further complexity.
 
 
-[Creating a subprocess →](?./examples/subprocess)[← File server](?./examples/file_server)
+[Creating a subprocess →](./examples/subprocess.md)[← File server](./examples/file_server.md)

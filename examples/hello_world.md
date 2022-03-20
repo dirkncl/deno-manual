@@ -78,4 +78,4 @@ console.log(hello("kai"));
  */
 ```
 
-[Import and export modules →](?./examples/import_export)[← Examples](?./examples)
+[Import and export modules →](./examples/import_export.md)[← Examples](./examples.md)

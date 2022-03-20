@@ -61,4 +61,4 @@ versioned and available at:
 https://deno.land/x/deno/cli/schemas/config-file.v1.json
 
 
-[Permissions →](?./getting_started/permissions)[← Command line interface](?./getting_started/command_line_interface)
+[Permissions →](./getting_started/permissions.md)[← Command line interface](./getting_started/command_line_interface.md)

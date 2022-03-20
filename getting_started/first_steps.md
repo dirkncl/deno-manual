@@ -156,4 +156,4 @@ back, without further complexity.
 You can find more examples, like an HTTP file server, in the `Examples` chapter.
 
 
-[Command line interface →](?./getting_started/command_line_interface)[← Set up your environment](?./getting_started/setup_your_environment)
+[Command line interface →](./getting_started/command_line_interface.md)[← Set up your environment](./getting_started/setup_your_environment.md)

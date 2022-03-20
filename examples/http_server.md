@@ -91,4 +91,4 @@ Then run this with:
 deno run --allow-net webserver.ts
 ```
 
-[File server →](?./examples/file_server)[← Unix cat program](?./examples/unix_cat)
+[File server →](./examples/file_server.md)[← Unix cat program](./examples/unix_cat.md)

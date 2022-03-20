@@ -40,4 +40,4 @@ This feature uses different syscalls depending on the platform:
   [ReadDirectoryChangesW](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
 
 
-[Module metadata →](?./examples/module_metadata)[← OS signals](?./examples/os_signals)
+[Module metadata →](./examples/module_metadata.md)[← OS signals](./examples/os_signals.md)

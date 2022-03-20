@@ -148,4 +148,4 @@ $ deno run --allow-run ./subprocess_piping_to_file.ts
 ```
 
 
-[OS signals →](?./examples/os_signals)[← TCP echo server](?./examples/tcp_echo)
+[OS signals →](./examples/os_signals.md)[← TCP echo server](./examples/tcp_echo.md)

@@ -170,4 +170,4 @@ https://www.youtube.com/watch?v=r5F6dekUmdE#t=34m57
 
 
 
-[Debugging your code →](?./getting_started/debugging_your_code.md)[← Configuration file](?./getting_started/configuration_file)
+[Debugging your code →](./getting_started/debugging_your_code.md)[← Configuration file](./getting_started/configuration_file.md)

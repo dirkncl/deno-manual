@@ -6,7 +6,7 @@
   [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 - Deno is secure by default, meaning explicit permission must be granted to
   access the network.
-- See also: Deno's [permissions](?./getting_started/permissions.md) model.
+- See also: Deno's [permissions](./getting_started/permissions.md) model.
 
 ## Overview
 
@@ -89,4 +89,4 @@ await fetch("https://example.com/", {
 ```
 
 
-[Read and write files →](?./examples/read_write_files)[← Manage dependencies](?./examples/manage_dependencies)
+[Read and write files →](./examples/read_write_files.md)[← Manage dependencies](./examples/manage_dependencies.md)

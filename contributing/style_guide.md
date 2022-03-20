@@ -364,4 +364,4 @@ Maintain browser compatibility for such a module by either not using the global
 also browser compatible.
 
 
-[Architecture →](?./contributing/architecture)[← Web platform tests](?./contributing/web_platform_tests)
+[Architecture →](./contributing/architecture.md)[← Web platform tests](./contributing/web_platform_tests.md)

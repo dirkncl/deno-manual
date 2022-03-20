@@ -133,4 +133,4 @@ git push denoland
 All contributors will need to rerun `./tools/wpt.ts setup` after this.
 
 
-[Style guide →](?./contributing/style_guide)[← Building from source](?./contributing/building_from_source)
+[Style guide →](./contributing/style_guide.md)[← Building from source](./contributing/building_from_source.md)

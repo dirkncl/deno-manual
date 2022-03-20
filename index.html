@@ -652,8 +652,7 @@
      <script type='importmap'>
      {
        "imports":{
-         "marked":"./lib/marked/src/marked.js",
-         "createDOMPurify":"./lib/DOMPurify/src/purify.js"
+         "marked":"./lib/marked/src/marked.js"
        }
      }
     </script>     
@@ -747,7 +746,6 @@
 
     <script type="module">
        import { marked } from "marked";
-       import createDOMPurify from "createDOMPurify";
        
        var MathJax
        var hljs = window.hljs
@@ -773,15 +771,12 @@
             smartLists: true,
             smartypants: false
           });
-          window.purify = createDOMPurify()
-          var DOMPurify = window.purify
        
           function loadTOC(file) {
               var client = new XMLHttpRequest();
               client.open('GET', file);
               client.onload = function () {
                  var html = marked.parse(client.responseText)
-                 html = DOMPurify.sanitize(html)
                  html = html.replace(new RegExp(' \\\\ ','g'), ' \\\\ ')
                  document.getElementById("toc").innerHTML = html;
               }    
@@ -789,10 +784,9 @@
           }
           loadTOC("toc.md")
           
-          var contentDiv = document.getElementById("content");
+          var contentHTML = document.getElementById("content");
           function renderText(text) {
              var html = marked.parse(text)
-             html = DOMPurify.sanitize(html)
              html = html.replace(new RegExp(' \\\\ ','g'), ' \\\\ ')
              var nextRE = /<\s*a\s*[^>]*>(.*?)→<\s*\/\s*a>/g
              var nextTest = nextRE.test(html)
@@ -806,11 +800,10 @@
                var prev = html.match(nextRE)
                html = html.replae(prevRE,prev[0].replace(/<\s*a/, '<a class="prev"'))
              }
-             contentDiv.innerHTML = html;
-             if(contentDiv.innerHTML){
-              
-              loadMathjax(contentDiv)
-              }
+             contentHTML.innerHTML = html;
+             if(contentHTML.innerHTML){
+               loadMathjax(contentHTML)
+             }
           }
 
           function loadTextFromFile(file) {
@@ -821,18 +814,12 @@
               }
               client.send();
           }
-          if(location.search.length <= 1) {
-              loadTextFromFile("introduction.md");
-           }   
-          else {
-             var file = location.search.slice(1)
-             if(file.endsWith(".md")) {
-               loadTextFromFile(file)
-             }
-             else {  
-               loadTextFromFile(file + ".md");
-             }  
-          }    
+          if(location.search.length <= 1)
+             loadTextFromFile("introduction.md");
+              
+          else
+             loadTextFromFile(location.search.slice(1));
+          
        })();
     </script>
   </body>

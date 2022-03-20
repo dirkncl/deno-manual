@@ -11,17 +11,17 @@ For APIs where a web standard already exists, like `fetch` for HTTP requests,
 Deno uses these rather than inventing a new proprietary API.
 
 For more details, view the chapter on
-[Web Platform APIs](?./runtime/web_platform_apis.md).
+[Web Platform APIs](./runtime/web_platform_apis.md).
 
 ## `Deno` global
 
 All APIs that are not web standard are contained in the global `Deno` namespace.
 It has the APIs for reading from files, opening TCP sockets,
-[serving HTTP](?./runtime/http_server_apis.md), and executing subprocesses, etc.
+[serving HTTP](./runtime/http_server_apis.md), and executing subprocesses, etc.
 
 The TypeScript definitions for the Deno namespaces can be found in the
 [`lib.deno.ns.d.ts`](https://github.com/denoland/deno/blob/$CLI_VERSION/cli/dts/lib.deno.ns.d.ts)
 file.
 
 
-[Stability →](?./runtime/stability)[← Debugging your code](?./getting_started/debugging_your_code)
+[Stability →](./runtime/stability.md)[← Debugging your code](./getting_started/debugging_your_code.md)

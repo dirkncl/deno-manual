@@ -18,4 +18,4 @@ A great place to find interesting articles about best practices, application
 architecture and new learnings. Post your articles with the tag `deno`.
 
 
-[Contributing →](?./contributing)[← Embedding Deno](?./embedding_deno)
+[Contributing →](./contributing.md)[← Embedding Deno](./embedding_deno.md)

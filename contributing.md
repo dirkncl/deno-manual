@@ -75,7 +75,7 @@ Official Docker images for Deno.
 
 ## General remarks
 
-- Read the [style guide](?./contributing/style_guide.md).
+- Read the [style guide](./contributing/style_guide.md).
 
 - Please don't make [the benchmarks](https://deno.land/benchmarks) worse.
 
@@ -171,4 +171,4 @@ Use
 for writing documentation comments in Rust code.
 
 
-[Building from source →](?./contributing/building_from_source)[← Help](?./help)
+[Building from source →](./contributing/building_from_source.md)[← Help](./help.md)

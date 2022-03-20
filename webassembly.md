@@ -8,9 +8,9 @@ execute WebAssembly modules with the same interfaces that
 
 In this chapter we will discuss:
 
-1. [Using WebAssembly in Deno](?./webassembly/using_wasm.md)
-2. [Using the streaming WebAssembly APIs](?./webassembly/using_streaming_wasm.md)
-3. [Helpful resources](?./webassembly/resources.md)
+1. [Using WebAssembly in Deno](./webassembly/using_wasm.md)
+2. [Using the streaming WebAssembly APIs](./webassembly/using_streaming_wasm.md)
+3. [Helpful resources](./webassembly/resources.md)
 
 
-[Using WebAssembly in Deno →](?./webassembly/using_wasm)[← Configuring](?./jsx_dom/jsx)
+[Using WebAssembly in Deno →](./webassembly/using_wasm.md)[← Configuring](./jsx_dom/jsx.md)

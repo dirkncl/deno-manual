@@ -1,6 +1,6 @@
 # Linking to third party code
 
-In the [Getting Started](?./getting_started.md) section, we saw Deno could
+In the [Getting Started](./getting_started.md) section, we saw Deno could
 execute scripts from URLs. Like browser JavaScript, Deno can import libraries
 directly from URLs. This example uses a URL to import an assertion library:
 
@@ -86,7 +86,7 @@ software, centralized code repositories, and superfluous file formats.
 By using a lock file (with the `--lock` command line flag), you can ensure that
 the code pulled from a URL is the same as it was during initial development. You
 can learn more about this
-[here](?./linking_to_external_code/integrity_checking.md).
+[here](./linking_to_external_code/integrity_checking.md).
 
 ### But what if the host of the URL goes down? The source won't be available.
 
@@ -94,6 +94,6 @@ This, like the above, is a problem faced by _any_ remote dependency system.
 Relying on external servers is convenient for development but brittle in
 production. Production software should always vendor its dependencies. In Node
 this is done by checking `node_modules` into source control. In Deno this is
-done by using the [`deno vendor`](?./tools/vendor.md) subcommand.
+done by using the [`deno vendor`](./tools/vendor.md) subcommand.
 
-[Reloading modules →](?./linking_to_external_code/reloading_modules)[← Foreign Function Interface API](?./runtime/ffi_api)
+[Reloading modules →](./linking_to_external_code/reloading_modules.md)[← Foreign Function Interface API](./runtime/ffi_api.md)

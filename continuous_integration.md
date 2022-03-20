@@ -177,7 +177,7 @@ key: ${{ hashFiles('lock.json') }}
 
 To make this work you will also need a have a lockfile in your Deno project,
 which is discussed in detail
-[here](?./linking_to_external_code/integrity_checking.md). Now, if the contents
+[here](./linking_to_external_code/integrity_checking.md). Now, if the contents
 of `lock.json` are changed, a new cache will be made and used in subsequent
 pipeline runs thereafter.
 
@@ -213,4 +213,4 @@ key: ${{ secrets.CACHE_VERSION }}-${{ hashFiles('lock.json') }}
 ```
 
 
-[Using Visual Studio Code →](?./vscode_deno)[← Vendoring dependencies](?./tools/vendor)
+[Using Visual Studio Code →](./vscode_deno.md)[← Vendoring dependencies](./tools/vendor.md)

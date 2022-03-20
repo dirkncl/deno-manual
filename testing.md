@@ -439,4 +439,4 @@ Deno.test("calls bar during execution of foo", () => {
 });
 ```
 
-[Assertions →](?./testing/assertions)[← Module metadata](?./examples/module_metadata)
+[Assertions →](./testing/assertions.md)[← Module metadata](./examples/module_metadata.md)

@@ -75,4 +75,4 @@ declaration.
 This problem should be fixed in the near future. Feel free to omit the flag if
 the particular modules you depend on compile successfully without it.
 
-[Examples →](?./examples)[← Helpful resources](?./webassembly/wasm_resources)
+[Examples →](./examples.md)[← Helpful resources](./webassembly/wasm_resources.md)

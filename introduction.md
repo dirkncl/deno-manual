@@ -76,4 +76,4 @@ have been historically written with Bash or Python.
   cacheable.
 
 
-[Getting Started →](?./getting_started)[← Release schedule](?./contributing/release_schedule)
+[Getting Started →](./getting_started.md)[← Release schedule](./contributing/release_schedule.md)

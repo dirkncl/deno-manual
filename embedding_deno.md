@@ -11,4 +11,4 @@ You can view the API on [docs.rs](https://docs.rs/deno_core).
 <!-- TODO(lucacasonato): better docs -->
 
 
-[Help →](?./help)[← Import suggestions and intelligent registries](?./language_server/imports)
+[Help →](./help.md)[← Import suggestions and intelligent registries](./language_server/imports.md)

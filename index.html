@@ -798,7 +798,7 @@
              var prevTest = prevRE.test(prevRE)
              if(prevTest == true ) {
                var prev = html.match(nextRE)
-               html = html.replae(prevRE,prev[0].replace(/<\s*a/, '<a class="prev"'))
+               html = html.replace(prevRE,prev[0].replace(/<\s*a/, '<a class="prev"'))
              }
              contentHTML.innerHTML = html;
              if(contentHTML.innerHTML){
